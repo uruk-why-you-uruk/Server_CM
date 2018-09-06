@@ -21,10 +21,17 @@ public class ClientMainForm extends JFrame{
 	public ClientMainForm()
 	{
 		setLayout(card);
+<<<<<<< HEAD
 		//add("MV", mv);  
 		add("CS", cs);
 		//add("GR", gr);
 		//add("WR", wr);
+=======
+		add("MV", mv);  
+		add("CS", cs);
+		add("GR", gr);
+		add("WR", wr);
+>>>>>>> branch 'master' of https://github.com/uruk-why-you-uruk/Server_CM.git
 		
 		setSize(1251,750);
 		setVisible(true);
