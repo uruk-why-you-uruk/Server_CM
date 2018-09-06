@@ -22,9 +22,9 @@ public class ClientMainForm extends JFrame{
 	{
 		setLayout(card);
 		//add("MV", mv);  
-		//add("CS", cs);
+		add("CS", cs);
 		//add("GR", gr);
-		add("WR", wr);
+		//add("WR", wr);
 		
 		setSize(1251,750);
 		setVisible(true);
