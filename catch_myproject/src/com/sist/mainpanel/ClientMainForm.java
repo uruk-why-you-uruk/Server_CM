@@ -21,9 +21,9 @@ public class ClientMainForm extends JFrame{
 	public ClientMainForm()
 	{
 		setLayout(card);
-		//add("MV", mv);  
-		//add("CS", cs);
-		//add("GR", gr);
+		add("MV", mv);  
+		add("CS", cs);
+		add("GR", gr);
 		add("WR", wr);
 		
 		setSize(1251,750);
