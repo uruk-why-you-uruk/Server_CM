@@ -1,0 +1,59 @@
+﻿package common;
+
+public class Function {
+	  //로그인처리[로그인 된 사람, 로그인 요청자
+	  
+		
+	  public static final int SIGNUP=10;
+	  public static final int DUNAME=20;
+	  public static final int DUID=30;
+	  public static final int SIGNOK=40;
+		
+	  public static final int LOGIN=100;
+	  public static final int MYLOG=110;//로그인>>대기
+	  public static final int LOGINCH=120;
+	  public static final int LOGINT=130;
+	  public static final int LOGINF=140;
+	  public static final int LOGINFF=150;
+	  public static final int NOID=160;
+	  //대기실 ==> 방만들기, 방들어가기
+	  public static final int MAKEROOM=200;
+	  public static final int ROOMIN=210;
+	  public static final int ROOMIN_FAIL = 211;	//비밀번호 실패
+	  public static final int ROOMADD=220;
+	  public static final int ROOMOUT=230;
+	  public static final int MYROOMOUT=240;
+	  public static final int WAITALLUPDATE=250;
+	  
+	  public static final int HOSTCHANGE=300;
+	  
+	  public static final int GUESTGETREADY=400;
+	  public static final int GUESTISREADY=410;
+	  public static final int GAMESTART=420;
+	  public static final int BET=430;
+	  public static final int MYBET=440;
+	  public static final int YOURBET=450;
+	  public static final int CALL=460;
+	  public static final int MYCALL=470;
+	  public static final int YOURCALL=480;
+	  public static final int GIVEUP=490;
+	  public static final int MYGIVEUP=500;
+	  public static final int YOURGIVEUP=510;
+	  public static final int RESHUFFLE=520;
+	  
+	  public static final int DRAW=530;
+/////////////	  
+	  public static final int GAME_WIN = 550;
+	  public static final int GAME_LOSE = 551;
+////////////	  
+	  
+	  public static final int WAITCHAT=800;
+	  public static final int ROOMCHAT=810;
+	  public static final int ROOMSTATUS=820;
+	  
+	  //종료
+	  public static final int CHATEND=900; //남아있는 사람 처리
+	  public static final int MYCHATEND=910;//실제 나가는 사람 처리
+	  public static final int END=950;
+	  
+	}
