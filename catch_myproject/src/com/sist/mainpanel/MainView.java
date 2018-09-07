@@ -33,9 +33,6 @@ public class MainView extends JPanel implements MouseListener{
       la1.setBounds(625,480,80,30);
       add(la1);
       
-      la2.setForeground(Color.black);
-      la2.setBounds(625,395,80,30);
-      add(la2);
       
       tf.setBounds(558,350,180,30);
       tf.setBackground(Color.WHITE);
