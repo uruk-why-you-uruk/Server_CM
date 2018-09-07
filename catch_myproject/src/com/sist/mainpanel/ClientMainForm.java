@@ -27,11 +27,6 @@ public class ClientMainForm extends JFrame{
 		//add("GR", gr);
 		add("WR", wr);
 
-		add("MV", mv);  
-		add("CS", cs);
-		add("GR", gr);
-		add("WR", wr);
-
 		setSize(1251,750);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);  

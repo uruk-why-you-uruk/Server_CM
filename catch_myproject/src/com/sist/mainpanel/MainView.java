@@ -15,40 +15,43 @@ public class MainView extends JPanel implements MouseListener{
    JButton b1,b2;
    MainView() {
 	  // 
-      back=Toolkit.getDefaultToolkit().getImage("image\\back.png");
- 
-      la1=new JLabel("닉네임");
-      
-      tf=new JTextField();
-      pf=new JPasswordField();
-      
-      b1=new JButton("로그인");
-      b2=new JButton("취소");
-      
-      
-      
-      //   배치
-      setLayout(null); //   배치를 사용하지 않고 직접 배치
-      la1.setForeground(Color.black); 
-      la1.setBounds(625,480,80,30);
-      add(la1);
-      
-      
-      tf.setBounds(558,350,180,30);
-      tf.setBackground(Color.WHITE);
-      add(tf);
-      
-      pf.setBounds(558,395,180,30);
-      add(pf);
-      
-      JPanel p=new JPanel();
-      p.setOpaque(false);
-      p.add(b1);
-      p.add(b2);
-      p.setBounds(550,460,185,35);
-      add(p);
-      
-      tf.addMouseListener(this);
+	   back=Toolkit.getDefaultToolkit().getImage("image\\back.png");
+	   
+	      la1=new JLabel("닉네임");
+	      
+	      tf=new JTextField();
+	      pf=new JPasswordField();
+	      
+	      b1=new JButton("로그인");
+	      b2=new JButton("취소");
+	      
+	      
+	      
+	      //   배치
+	      setLayout(null); //   배치를 사용하지 않고 직접 배치
+	      la1.setForeground(Color.black); 
+	      la1.setBounds(625,380,80,30);
+	      add(la1);
+	      
+	      //la2.setForeground(Color.black);
+	      //la2.setBounds(625,395,80,30);
+	      //add(la2);
+	      
+	      tf.setBounds(558,380,180,30);
+	      tf.setBackground(Color.WHITE);
+	      add(tf);
+	      
+	      pf.setBounds(558,395,180,30);
+	      //add(pf);
+	      
+	      JPanel p=new JPanel();
+	      p.setOpaque(false);
+	      p.add(b1);
+	      p.add(b2);
+	      p.setBounds(550,460,185,35);
+	      add(p);
+	      
+	      tf.addMouseListener(this);
    }
    @Override
    protected void paintComponent(Graphics g) {
